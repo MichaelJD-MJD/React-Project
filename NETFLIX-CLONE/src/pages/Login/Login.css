@@ -1,88 +1,111 @@
 .login {
-    height: 100vh;
-    background-image: linear-gradient(#0000007e, #0000007e), url("/background_banner.jpg");
-    padding: 20px 8%;
+  height: 100vh;
+  background-image: linear-gradient(#0000007e, #0000007e),
+    url("/background_banner.jpg");
+  padding: 20px 8%;
 }
 
 .login-logo {
-    width: 150px;
+  width: 150px;
 }
 
 .login-form {
-    width: 100%;
-    max-width: 380px; /* Mengurangi max-width agar form lebih kecil */
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 4px;
-    padding: 40px; /* Mengurangi padding untuk mengecilkan tinggi form */
-    margin: auto;
+  width: 100%;
+  max-width: 380px; /* Mengurangi max-width agar form lebih kecil */
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 40px; /* Mengurangi padding untuk mengecilkan tinggi form */
+  margin: auto;
 }
 
 .login-form h1 {
-    font-size: 28px; /* Mengurangi ukuran font agar lebih proporsional */
-    font-weight: 500;
-    margin-bottom: 24px; /* Mengurangi margin bawah */
+  font-size: 28px; /* Mengurangi ukuran font agar lebih proporsional */
+  font-weight: 500;
+  margin-bottom: 24px; /* Mengurangi margin bawah */
 }
 
 .login-form input {
-    width: 100%;
-    height: 45px; /* Mengurangi tinggi input */
-    background: #333;
-    color: white;
-    margin: 10px 0; /* Mengurangi margin agar tidak terlalu renggang */
-    border: 0;
-    outline: 0;
-    border-radius: 4px;
-    padding: 14px 18px; /* Mengurangi padding dalam input */
-    font-size: 15px;
-    font-weight: 500;
+  width: 100%;
+  height: 45px; /* Mengurangi tinggi input */
+  background: #333;
+  color: white;
+  margin: 10px 0; /* Mengurangi margin agar tidak terlalu renggang */
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  padding: 14px 18px; /* Mengurangi padding dalam input */
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .login-form input::placeholder {
-    font-size: 15px;
-    font-weight: 500;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .login-form button {
-    width: 100%;
-    border: 0;
-    outline: 0;
-    padding: 14px; /* Mengurangi padding tombol */
-    background: #e50914;
-    color: white;
-    border-radius: 4px;
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 16px; /* Mengurangi margin atas tombol */
-    cursor: pointer;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 14px; /* Mengurangi padding tombol */
+  background: #e50914;
+  color: white;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 16px; /* Mengurangi margin atas tombol */
+  cursor: pointer;
 }
 
 .form-help {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #b3b3b3;
-    font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #b3b3b3;
+  font-size: 13px;
 }
 
 .remember {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .remember input {
-    width: 16px; /* Mengurangi ukuran checkbox */
-    height: 16px;
+  width: 16px; /* Mengurangi ukuran checkbox */
+  height: 16px;
 }
 
 .form-switch {
-    margin-top: 30px; /* Mengurangi margin atas untuk menghemat ruang */
-    color: #737373;
+  margin-top: 30px; /* Mengurangi margin atas untuk menghemat ruang */
+  color: #737373;
 }
 
 .form-switch span {
-    margin-left: 6px;
-    color: #fff;
-    font-weight: 500;
-    cursor: pointer;
+  margin-left: 6px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-spinner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-spinner img {
+  width: 60px;
+}
+
+@media (max-width: 500px) {
+    .login {
+        padding: 15px 5%;
+    }
+    .login-form {
+        padding: 20px;
+        margin-top: 30px;
+    }
 }
