@@ -15,8 +15,13 @@ Welcome to the **Netflix Clone** project! This is a frontend application inspire
 - **Firebase**: For authentication and real-time backend services.
 - **CSS**: Custom styling to recreate the look and feel of Netflix.
 
+## Deployment
+
+You can access the deployed application at the following link:  
+[Netflix Clone Deployment](https://mjd-movie-alpha-ecru.vercel.app/)
+
 ## Future Enhancements
-   
+
 1. **Advanced Search and Filtering**
 2. **Personalized Recommendations**
-3. **Enhanced Authentication**:
+3. **Enhanced Authentication**
